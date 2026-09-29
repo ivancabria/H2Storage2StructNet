@@ -1,0 +1,11 @@
+Variable,Units,lowlimit,highlimit
+usablegc,(wt.%),0.000001,15.000000
+usablevc,(kg/L),0.000001,0.060000
+density,(kg/L),0.1,5.0
+porosity,(dimensionless),0.001,0.9
+R_i,(angstroms),1.0,40.0
+ssa,(m^2/g),100,10000
+specificporevolume,(cm^3/g),0.001,10.0
+du,(dimensionless),-1000.0,4000.0
+metalw,%,0.000001,90.0
+metala,%,0.000001,90.0

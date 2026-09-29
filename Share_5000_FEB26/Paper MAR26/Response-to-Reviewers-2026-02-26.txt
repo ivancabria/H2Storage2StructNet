@@ -1,0 +1,262 @@
+We thank you for the thorough assessment of our manuscript “[Revised Title]”. We have substantially revised the paper to address all comments. Below we respond point-by-point, indicating where changes were made (page, section, line) and highlighting all revisions in red in the manuscript.
+
+
+***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************  BORRA LUEGO DESDEAQUI
+Ms. No.: POWER-D-26-00492
+Title: Inverse Design of Metal-Organic Frameworks for Hydrogen Storage at Room Temperature and Moderate Pressure Using Neural Networks
+Corresponding Author: Dra Alejandra Granja-DelRío
+All Authors: Alejandra Granja-DelRío; Iván Cabria; Teodoro Calonge
+
+Dear Dra Granja-DelRío,
+
+I have now received the referees' reviews on your paper referenced above.
+
+I am afraid that the referees conclude that the paper is not suitable for publication in its present form.
+
+If you are able to correct the paper taking into account all of the points raised in the referees' report (below), I would be willing to arrange for the paper to be reviewed again. 
+
+If you choose to revise your manuscript it will be due into the Editorial Office by the Feb 26, 2026.
+
+Please submit your revision online within by logging onto the Editorial Manager for Journal of Power Sources:
+https://www.editorialmanager.com/power/
+
+
+The manuscript record can be found in the "Submissions Needing Revision" menu. (If you have forgotten your password, please click the "Forget your password" link located on the log-in screen.)
+
+When submitting your revised paper, please include a separate document uploaded as "Response to Reviews" that carefully addresses the issues raised in the below comments, point by point. You should also include a suitable rebuttal to any specific request for change that has not been made. To assist the review process, it is essential that all corrections made to the text (in response to both the Editor's and the reviewer's comments) are highlighted in red type.
+
+To facilitate the electronic publication of your manuscript (should it be accepted), we request that you upload electronic source files for the text and figures. These files should include the text, tables and figure legend in an editable electronic format (MS Word, WordPerfect, LaTeX, RTF) and all figures saved individually as TIF, JPEG, EPS, PDF or MS Office files. Information and instructions about the file types and formatting of figures can be found at: http://www.elsevier.com/artworkinstructions
+
+NOTE: Upon submitting your revised manuscript, please upload the source files for your article. For additional details regarding acceptable file formats, please refer to the Guide for Authors at: http://www.elsevier.com/journals/journal-of-Power-Sources/0378-7753/guide-for-authors
+
+When submitting your revised paper, we ask that you include the following items:
+
+Response to Reviewers (mandatory)
+
+This should be a separate file labeled "Response to Reviewers" that carefully addresses, point-by-point, the issues raised in the comments appended below. You should also include a suitable rebuttal to any specific request for change that you have not made. Mention the page, paragraph, and line number of any revisions that are made.
+
+Manuscript and Figure Source Files (mandatory)
+
+We cannot accommodate PDF manuscript files for production purposes. We also ask that when submitting your revision you follow the journal formatting guidelines. Figures and tables may be embedded within the source file for the submission as long as they are of sufficient visual quality. For any figure that cannot be embedded within the source file (such as *.PSD Photoshop files), the original figure needs to be uploaded separately. Refer to the Guide for Authors for additional information.
+
+Highlights (mandatory)
+
+Highlights consist of a short collection of bullet points that convey the core findings of the article and should be submitted in a separate file in the online submission system. Please use 'Highlights' in the file name and include 3 to 5 bullet points (maximum 85 characters, including spaces, per bullet point). See the following website for more information
+http://www.elsevier.com/highlights
+
+Graphical Abstract (optional)
+
+Graphical Abstracts should summarize the contents of the article in a concise, pictorial form designed to capture the attention of a wide readership online. Refer to the following website for more information: http://www.elsevier.com/graphicalabstracts
+
+Include interactive data visualizations in your publication and let your readers interact and engage more closely with your research. Follow the instructions here: https://www.elsevier.com/researcher/author/tools-and-resources/data-visualization to find out about available data visualization options and how to include them with your article.
+
+
+Research Elements (optional)
+This journal encourages you to share research objects - including your raw data, methods, protocols, software, hardware and more – which support your original research article in a Research Elements journal. Research Elements are open access, multidisciplinary, peer-reviewed journals which make the objects associated with your research more discoverable, trustworthy and promote replicability and reproducibility. As open access journals, there may be an Article Publishing Charge if your paper is accepted for publication. Find out more about the Research Elements journals at https://www.elsevier.com/authors/tools-and-resources/research-elements-journals?dgcid=ec_em_research_elements_email.
+
+
+With kind regards,
+
+Rui Zhang
+Scientific Handling Editor
+Journal of Power Sources
+
+Journal of Power Sources, Editorial Office
+
+
+HASTA AQUI  ****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+
+ 
+
+Reviewers' comments:
+
+Reviewer #1: This paper innovatively proposes to reversely calculate the requirements for specific surface area, density, and porosity of MOF materials suitable for solid-state hydrogen storage through machine learning methods based on the future technical targets of solid-state hydrogen storage materials, narrowing the scope and saving time for MOF material screening. However, overall, the research content of this paper is relatively thin, mainly reflected in the following aspects:
+
+
+(1) The paper only adopts 1000 MOFs randomly selected from the CCDC database. Nevertheless, there are numerous studies on MOF materials for solid-state hydrogen storage.
+****************************************************
+ANSWER: We thank the reviewer for this comment. We have done 
+GCMC simulations 
+of more MOFs, 5000, and we have also applied the methodology to this 
+database of 5000 MOFs and analyzed the results.
+
+
+
+The authors need to conduct in-depth and comprehensive analysis of papers on hydrogen storage in MOFs to enhance the analytical depth of the introduction section. Meanwhile, the conclusions summarized in existing papers should be applied to the research of this paper. For example, among MOFs with different metal centers (such as Al, Zn, Co, Mg-based), ligand types (aromatic, aliphatic), and pore structure types (cage-like, slit-like, one-dimensional channels) used for solid-state hydrogen storage, which are more suitable according to current research papers.
+****************************************************
+ANSWER:
+We thank the reviewer for this comment.
+
+The Introduction has been expanded to include a more detailed and structured analysis of prior experimental and computational studies on hydrogen storage in MOFs. In particular, we now explicitly summarize literature trends regarding the role of metal centers (e.g., Mg, Al, Co, Ni, Zn), linker chemistry, and pore topology on deliverable hydrogen capacity at near-ambient temperature.
+
+Representative material families (MOF-74, HKUST-1, UiO-66, IRMOFs) are discussed to illustrate how these factors influence gravimetric and volumetric performance. These conclusions are used to provide physical context for the structural descriptors employed in the present work and to guide the interpretation of the descriptor-space regions identified by the ANN.
+
+These literature-based conclusions serve as the physical foundation for the structural descriptors selected for our ANN model.
+
+
+
+
+
+Based on this conclusion, corresponding MOFs from the CCDC database should be selected for machine learning analysis. Furthermore, 1000 random materials are insufficient, and it is recommended to increase the number to 5000;
+****************************************************
+ANSWER: We thank the reviewer for this comment. We have followed the 
+recommendation of the reviewere and we have done 
+GCMC simulations of more MOFs, 5000, and we have also applied the methodology to this 
+database of 5000 MOFs and analyzed the results. The corresponding changes 
+have been included in the manuscript.
+
+
+
+
+(2) For MOFs applied in the field of hydrogen storage, hydrogen storage performance is not only related to density, specific surface area, porosity, etc., but also associated with metal site density, ligand functional group density, and adsorption energy requirements. The authors must take all these factors into account;
+****************************************************
+ANSWER: Following this comment of the reviewer, we have included three 
+more properties associated with metal density, ligands and energy:
+Hence, the database contains now data of 8 properties  
+of 5000 MOFs, instead of 5 properties of 1000 MOFs.
+
+
+
+
+(3) On the basis of machine learning simulation results, the authors must conduct verification combined with experimental analysis. Select 3-5 representative candidate MOF materials, verify the hydrogen adsorption isotherms at 298 K and 25 MPa through material experiments such as BET and XRD, calculate the actual usable hydrogen storage capacity, compare the deviation between simulated and experimental values, and revise the model parameters;
+****************************************************
+ANSWER: We thank the reviewer for this comment/suggestion. We have 
+performed a verification as follows. We have selected a
+MOF with three features: a) its properties are close to the predicted ones, 
+b) it has already been synthesized and its composition and structure 
+is known and c) there are experimental hydrogen storage capacities of 
+that MOF at room temperature. That MOF is IRMOF-1 or MOF-5.
+We have performed GCMC simulations of that MOF and 
+compared the theoretical GCMC capacities with the experimental ones.
+
+This is the closest validation to the validation proposed by the 
+reviewer.
+
+
+
+
+(4) The abstract and introduction sections of this paper need to be further deepened. The review of international MOF hydrogen storage materials should be strengthened, and the analysis and summary of research data in this paper are also insufficient. More comparative data and charts are required to present the research results.
+I suggest authors should consider the above comments carefully and add more research, analysis into the current manuscript and re-submitted again.
+****************************************************
+ANSWER:
+We appreciate the reviewer’s constructive suggestions. Substantial revisions have been made to both the abstract and the introduction.
+
+The abstract has been updated to explicitly describe the methodological framing (descriptor‑space feasibility mapping) and to include a key quantitative finding. 
+
+We agree with the reviewer that hydrogen storage in MOFs depends on additional factors beyond purely geometric descriptors, including metal identity, open metal sites, and adsorption energetics.
+
+The Introduction has been substantially expanded to strengthen the review of international work on MOF-based hydrogen storage, including system-level metrics, material design trends, and prior computational screening efforts. Comparative discussion is now provided in terms of material classes, structural features, and reported performance trends in the literature
+
+In the revised Introduction, we explicitly discuss how these chemical features have been shown to influence near-ambient hydrogen adsorption in MOFs, and we clarify that such effects are implicitly reflected, but not explicitly encoded, in the selected structural descriptors.
+
+We also clarify the scope and limitations of the present model: the ANN is not intended to capture detailed chemistry-dependent binding physics, but rather to identify feasible regions of descriptor space consistent with system-level performance targets. This limitation is now stated explicitly to avoid over-interpretation of the results.
+
+
+
+
+
+Reviewer #2: After careful consideration of the manuscript, I find the following.
+
+- The work is hydrogen/FCV-relevant and uses DOE onboard-storage targets as the performance yardstick. However, I find the manuscript currently to only be conditionally suitable for JPS, the authors need to improve and strengthen the system-level framing beyond a single back-of-envelope range estimate.
+****************************************************
+ANSWER:
+%Note
+
+
+
+
+- The quality of the presentation is lacking. Some phrasing is non-idiomatic; "Inverse design" is used prominently, but the actual workflow is closer to "invert the surrogate to infer descriptor ranges meeting targets," which should be stated plainly and defended, to give a few examples. Overall, the quality is below the JPS standard, and the manuscript requires careful language with technical editing.
+****************************************************
+ANSWER:
+We agree with the reviewer that the term "inverse design" can be misleading in the context of the present workflow.
+
+Accordingly, the manuscript has been revised to explicitly clarify that the approach consists of inverting a trained surrogate model to infer feasible ranges of structural descriptors consistent with target performance metrics, rather than directly generating new MOF structures. The terminology has been moderated throughout, and the contribution is now framed as an inverse surrogatemapping or descriptor-space feasibility analysis.
+
+The presentation has also been carefully edited to improve clarity, precision, and technical language in line with JPS standards.
+
+
+
+
+- In terms of novelty, this "inverse use of a surrogate" is a reasonable contribution, but the manuscript should acknowledge that ML surrogates for MOF adsorption and ML-guided screening are now common, and position the novelty more carefully as: (a) a descriptor-space feasibility map for simultaneously meeting ugc/uvc targets at 25 MPa, and (b) a negative result with implications (i.e., within this dataset/feature space, DOE volumetric targets are hard to hit at "moderate" pressure). In essence, the contribution is moderately original in presentation and framing; not strong enough as-is to justify "inverse design" as the headline claim.
+****************************************************
+ANSWER:
+We agree with the reviewer that ML surrogates and ML-guided screening of MOFs are now well established.
+
+The manuscript has been revised to position the novelty more carefully as the use of an inverse surrogate mapping to construct a descriptor-space feasibility map for simultaneously meeting gravimetric and volumetric DOE targets at 25 MPa.
+The contribution is therefore primarily one of framing and interpretation, rather than of proposing a new ML methodology.
+
+In addition, the implications of the results—including the difficulty of meeting DOE volumetric targets at moderate pressure within the considered descriptor space—are now discussed more explicitly in the Results and Discussion.
+
+The negative result of the present work is the difficulty to reach the volumetric 
+DOE target at 25 MPa and room temperature and has been also explained in the 
+Discussion of results and in the conclusions.
+
+
+
+- Having stated the above, the manuscript lacks clarity. What exactly is "inverse design" here? The manuscript implies actionable design guidance for synthesis, but the ANN really outputs regions of descriptor space, not a direct generator of candidate structures or chemistry. In terms of the dataset provenance & representativeness, are these CoRE MOFs? hypothetical? Are structures cleaned? How were charges/forcefields selected? These are critical because GCMC outcomes are forcefield-sensitive. Furthermore, from the descriptor sufficiency perspective, five descriptors can miss chemistry-dependent binding physics (i.e. open metal sites, polarizability, functionalization, catenation effects, etc.). That matters especially at 298 K. The material/manuscript lacks clarity and needs tightening and more explicit limitations.
+****************************************************
+ANSWER:
+%Note
+
+
+
+- The paper calls R² "the most important metric", and that is arguable, however, for screening against targets, calibration near thresholds, error bars, and false positive/negative rates can matter more than global R². The claim of interpretability is overstated: "physically interpretable guidance", needs to be backed by sensitivity analysis/partial dependence/SHAP-style evidence, or reframed modestly. Suffice to say that there are multiple reasoning overclaims and ML-evaluation gaps that need to be thoroughly addressed.
+****************************************************
+ANSWER:
+%Note
+
+
+
+- The references/referencing is incomplete for JPS; it needs stronger grounding in the ML-for-porous-materials literature and storage-system studies. The authors cite DOE targets and provide context that 70 MPa is common, and they state target values explicitly. However, the references need to do more of the following: (a) situate against existing ML+MOF screening and inverse-design workflows, (b) cite prior work on H₂ usable capacity metrics, working definitions, and tank-level constraints, and (c) cite prior system-level analyses of AHG vs compressed H₂ tradeoffs.
+****************************************************
+ANSWER:
+We thank the reviewer for highlighting the need for stronger grounding in the relevant literature.
+
+The Introduction has been revised to include additional references and context covering: (a) ML-based screening and surrogate modeling for porous materials and MOFs; (b) definitions and system-level interpretations of usable/deliverable hydrogen capacity and tank-level constraints; and (c) prior system-level comparisons between adsorbed hydrogen gas (AHG) and high-pressure compressed hydrogen storage.
+
+These additions strengthen the connection between the present study and both the ML-for-materials and hydrogen storage systems literature relevant to the Journal of Power Sources.
+
+
+
+
+
+- The abstract is good but add a key quantitative outcome.
+****************************************************
+ANSWER:
+We thank the reviewer for this helpful remark. In response, the abstract has been revised to include a clear quantitative outcome. Specifically, it now reports that while a subset of MOFs approaches the gravimetric DOE 2025 target (5.5 wt.% with values up to 11 wt. %), none of the 
+MOFs in the dataset achieve the volumetric requirement of 0.040 kg/L at 25 MPa, with most materials remaining below 0.024 kg/L. This addition strengthens the abstract by providing a concrete numerical result that directly reflects the main finding of the study.
+
+
+
+- The conclusions are good but should be strengthened with uncertainty and external validation.
+****************************************************
+ANSWER:
+%Note: As regards the external validation
+
+
+
+- The title is technically OK, but potentially over-promising and needs to be moderated. Reframe title/claims accordingly.
+****************************************************
+ANSWER:
+We sincerely thank the reviewer for this important observation. We agree that the original wording, particularly the use of the term "inverse design", could be interpreted as implying a direct generative or chemistry-level design capability, which is beyond the scope of the present study. 
+
+To address this concern, we have revised the title to more accurately reflect the actual contribution of the work. The new title emphasizes descriptor-space mapping enabled by a neural-network surrogate, rather than direct material design. This wording clarifies that the ANN is used
+
+
+
+- To improve focus and tighten: (a) reduce generic ML exposition ("trial-and-error experimentation…" etc.) unless it directly supports reproducibility, (b) remove irrelevant/stray content (e.g., the ROCm line) and (c) condense any narrative repetition between Abstract/Intro/Methods.
+****************************************************
+ANSWER:
+%Note
+
+
+
+
+- The "Highlights" are aligned and good.
+****************************************************
+ANSWER:
+We thank the reviewer for this positive comment.
+
+
+
+My recommendation is a substantial revision of the manuscript according to the items mentioned.

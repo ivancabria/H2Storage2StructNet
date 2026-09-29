@@ -1,0 +1,17 @@
+The DOE targets are in the following link:
+https://www.energy.gov/eere/fuelcells/doe-technical-targets-onboard-hydrogen-storage-light-duty-vehicles
+   2025 targets: vc->0.040 kg/L and gc->5.5 wt. %
+   Ultimate targets: 0.050 kg/L and 6.5 wt. %
+
+
+The 2018 Toyota Mirai, a commercial vehicle with tanks storing 
+compressed hydrogen at 70 MPa within a total volume of 122.4 L. 
+The Mirai has a gravimetric capacity of 5.7 wt%, a volumetric 
+capacity of 0.040 kg/L and a range autonomy of 312 miles (502 km). 
+See: Broom DP, Webb CJ, Fanourgakis GS, Froudakis GE, Trikalitis PN, 
+Hirscher M. Concepts for improving hydrogen storage in nanoporous 
+materials. Int J Hydrog Energy 2019;44(15):7768-79
+http://dx.doi.org/10.1016/j.ijhydene.2019.01.224
+
+
+

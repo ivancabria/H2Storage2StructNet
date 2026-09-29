@@ -1,0 +1,29 @@
+Numerical constraints:
+   usablegc >= 0.0
+   usablevc >= 0.0
+   0.1 kg/L <= density <= 3.0 kg/L   Better if 0.1 <= density <= 0.6 kg/L
+   0.3 <= porosity <= 0.9            Better if 0.7 <= porosity <= 0.9
+   Ri > 0.0                          Better if 5 angstroms < Ri < 15 angstroms
+   ssa > 0.0                         Better if ssa >= 4000 m^2/g
+   specific pore volume > 0.0        Better if specific pore volume >= 1.0 cm^3/g
+
+Qualitative constraints:
+   SSA and specific pore volume are, in general, inversely proportional 
+   to the density.
+   Porosity is, in general, inversely proportional to the density.
+   If the porosity is high then, Ri is usually large.
+   SSA and porosity are correlated. The dependence of SSA on the 
+   porosity is approximately linear.
+
+Densities of materials at 15-25 ºC and one athmosphere of pressure:
+   The density of Lead is 11.3 kg/L
+   The densest natural material is Osmium: 22.6 kg/L
+   The densities of MOFs are within the interval 0.1-4.1 kg/L
+
+
+Escalado:
+column='density', minimum=0.001, maximum=3.0
+column='porosity', minimum=0., maximum=1.
+column='Ri', minimum=0.0, maximum=20.
+column='ssa', minimum=0.0, maximum=10000.
+column='specific', minimum=0.0, maximum=2.

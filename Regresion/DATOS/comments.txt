@@ -1,0 +1,227 @@
+SSA and porosity are also correlated. The dependence of SSA on the 
+porosity is approximately linear. See the graph ssa-vs-porosity.eps
+
+
+
+Usable vc vs usable gc
+There is a relationship between usable vc and usable gc:
+
+The usable volumetric capacity is uvc = MuH/V
+The usable gravimetric capacity is ugc = 100 MuH/(MuH + Madsorbent)
+
+MuH: usable mass of hydrogen
+Madsorbent: mass of the adsorbent material. In this case, the mass of the 
+MOF.
+These are the masses in the simulation cell.
+V: volume of the simulation cell
+
+If Muc is low (this is the case for hydrogen) then, MuH << Madsorbent 
+and the following approach is valid:
+
+ugc = 100 MuH/(MuH + Madsorbent) approx 100 MuH/Madsorbent = 
+= 100 (MuH/V) / (Madsorbent/V) = 100 uvc/density
+
+See the graph approxusablegc-vs-usablegc.eps
+
+
+
+Material Fransdata 1 (color rojo en las gráficas):
+    Densidad: 0,247
+    Porosidad: 0,98
+    Ri: 28,02
+    ssa: 9212,3
+    Specific: 1,2134
+A material with a low density and high porosity is possible. 
+However, the porosity of this material is too high. It is almost empty.
+The diameter of the pore is a bit large.
+
+
+
+Material Fransdata 2 (color amarillo en las gráficas):
+    Densidad: 31,5120
+    Porosidad: 0,9320
+    Ri: 33,1884
+    ssa: 0,1266
+    Specific: 5,2775
+The density is too high. This material is about three times more dense 
+than Lead.
+The porosity of this material is also too high.
+A material with a very high density and a high porosity does not 
+seem possible. 
+
+
+Inventado 3
+        Densidad: 21.02
+        Porosidad: 0.2832
+        Ri: 21.9048
+        Ssa: 1.0797
+        Specific: 2.9672
+The density is very high. This material is more dense than Lead.
+The SSA is very low.
+
+    Inventado 4
+        Densidad: 15.66
+        Porosidad: 0.9951
+        Ri: 16.59
+        Ssa: 0.0634
+        Specific: 3.3468
+This material has a high density and a very low porosity. A material 
+of this type does not seem possible.
+The density is very high. This material is more dense than Lead.
+The porosity is very high.
+The SSA is very low.
+
+    Inventado 5
+        Densidad: 16.2
+        Porosidad: 0.6252
+        Ri: 21.53
+        Ssa: 0.5439
+        Specific: 2.859
+The density is very high. This material is more dense than Lead.
+The SSA is very low.
+
+
+
+
+
+Objetivo 1: usablegc ≈ 3.25 y usablevc ≈ 0.025
+    Material 1
+        Densidad: 2.7430
+        Porosidad: 0.8629
+        Ri: 30.6407
+        ssa: 0.0178
+        Specific: 1.5028
+It is difficult to understand a material with a 
+density of around 2.7 kg/L and with a high porosity, 0.8629 in this case.
+
+In general, we expect materials with low densities, 0.2-0.6 kg/L.
+
+The ssa is very small. The ssa of solid porous materials 
+with large storage capacities is 4000, 5000 o more m^2/g
+
+The ssa is not consistent with the porosity.
+The relationship between porosity and SSA is approximately linear.
+If the porosity is high then, also the SSA is high.
+If porosity is around 0.8-0.9, then SSA is around 5000-6000 or higher.
+
+Ri is a bit large, but the value around 30 angstroms could be ok.
+
+
+    Material 2
+        Densidad: 2.8280
+        Porosidad: 0.8722
+        Ri: 30.2943
+        ssa: 0.0231
+        Specific: 1.5358
+It is difficult to understand a material with a 
+density of around 2.8 kg/L and with a high porosity, 0.8722 in this case.
+
+In general, we expect materials with low densities, 0.2-0.6 kg/L.
+
+The ssa is very small. The ssa of solid porous materials 
+with large storage capacities is 4000, 5000 o more m^2/g
+
+The ssa is not consistent with the porosity.
+The relationship between porosity and SSA is approximately linear.
+If the porosity is high then, also the SSA is high.
+If porosity is around 0.8-0.9, then SSA is around 5000-6000 or higher.
+
+Ri is a bit large, but the value around 30 angstroms could be ok.
+
+
+
+Objetivo 2: usablegc ≈ 5.5 y usablevc ≈ 0.04
+
+    Material 3
+        Densidad: 2.7695
+        Porosidad: 0.8595
+        Ri: 61.2513
+        ssa: 0.0362
+        Specific: 1.5042
+It is difficult to understand a material with a 
+density of around 2.77 kg/L and with a high porosity, 0.8595 in this case.
+
+In general, we expect materials with low densities, 0.2-0.6 kg/L.
+
+The ssa is very small. The ssa of solid porous materials 
+with large storage capacities is 4000, 5000 o more m^2/g
+
+The ssa is not consistent with the porosity.
+The relationship between porosity and SSA is approximately linear.
+If the porosity is high then, also the SSA is high.
+If porosity is around 0.8-0.9, then SSA is around 5000-6000 or higher.
+
+Ri is large.
+
+
+
+    Material 4
+        Densidad: 2.8288
+        Porosidad: 0.8627
+        Ri: 61.1991
+        ssa: 0.0338
+        Specific: 1.5134
+It is difficult to understand a material with a 
+density of around 2.83 kg/L and with a high porosity, 0.8627 in this case.
+
+In general, we expect materials with low densities, 0.2-0.6 kg/L.
+
+The ssa is very small. The ssa of solid porous materials 
+with large storage capacities is 4000, 5000 o more m^2/g
+
+The ssa is not consistent with the porosity.
+The relationship between porosity and SSA is approximately linear.
+If the porosity is high then, also the SSA is high.
+If porosity is around 0.8-0.9, then SSA is around 5000-6000 or higher.
+
+Ri is large.
+
+
+
+We expect, in general, that a solid porous material with 
+large storage capacities will have:
+
+Low density, about 0.1-0.6 kg/L
+High porosity, about 0.7-0.9
+Ri not small, not large, about 5-15 angstroms
+High ssa, larger than 6000 m^2/g
+High specific pore volume, larger than 2 cm^3/g
+
+
+
+Material 5. usablegc≈5.5 and usablevc≈0.036
+    density: 2.8001
+    porosity: 0.7930
+    Ri: 3.0539 (dentro del rango preferido de 3 a 15 angstroms)
+    ssa: 14332.5 (cumple con el mínimo preferido de 4000 m²/g)
+    specific: 1.0001 (cumple con el mínimo preferido de 1.0 cm³/g)
+The density should be smaller, about 0.1-0.6 kg/L. The specific pore volume could be 
+larger.
+
+Material 6. usablegc≈3.25 and usablevc≈0.025
+    density: 1.8641
+    porosity: 0.6309
+    Ri: 3.0022 (dentro del rango preferido de 3 a 15 angstroms)
+    ssa: 7105.4 (cumple con el mínimo preferido de 4000 m²/g)
+    specific: 1.0000 (cumple con el mínimo preferido de 1.0 cm³/g)
+
+About materials 5 and 6:
+The density should be smaller, about 0.1-0.6 kg/L. The specific pore volume 
+should be larger. Ri should be >= 5 angstroms.
+
+The density and the ssa are correlated. SSA decreases exponentially as the 
+density increases. See figure 8 in graph.pdf. According to the plot of the 
+SSA vs density, SSA values of 7000 or 14000 m^2/g should be with densities 
+<= 0.5 kg/L.
+
+The density and the specific pore volume are correlated. The specific pore 
+volume decreases exponentially as the density increases. See figure 9 in 
+graph.pdf. According to the plot of the specific pore volume vs density, 
+specific pore volumes of 1 cm^3/g should be with densities of approximately 
+0.5 kg/L.
+
+The density and the largest pore radius, Ri, are correlated. The largest pore 
+radius decreases exponentially as the density increases. See figure 10 in 
+graph.pdf. According to the plot of the largest pore radius vs density, 
+densities of 1.8 or 2.8 kg/L are consistent with Ri approx. 3 angstroms, 
+and densities <=0.6 kg/L correspond to Ri >= 4 angstroms.
